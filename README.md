@@ -49,3 +49,5 @@ require('babel-core').transform('code', {
   'presets': ['es2015']
 });
 ```
+
+Note that setting ``` variable ``` is required for use within ``` strict mode ```
