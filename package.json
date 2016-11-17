@@ -1,0 +1,26 @@
+{
+  "name": "babel-plugin-lodash-template-precompile",
+  "version": "1.0.0",
+  "description": "Babel plugin to precompile Lodash templates",
+  "keywords": "babel-plugin, lodash, template, jst",
+  "repository": "animoto/babel-plugin-lodash-template-precompile",
+  "author": "Justin Cataldo <jdcataldo@gmail.com> (https://github.com/jdcataldo)",
+  "license": "Apache-2.0",
+  "main": "lib/index.js",
+  "scripts": {
+    "prepublish": "npm run build",
+    "build": "babel src -d lib",
+    "test": "ava"
+  },
+  "devDependencies": {
+    "ava": "0.17.0",
+    "babel-cli": "6.18.0",
+    "babel-core": "6.18.2",
+    "babel-preset-es2015": "6.18.0",
+    "eslint": "3.10.1",
+    "eslint-config-animoto": "https://github.com/animoto/eslint-config-animoto/tarball/v4.1.0"
+  },
+  "dependencies": {
+    "lodash.template": "4.4.0"
+  }
+}

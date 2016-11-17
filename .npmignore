@@ -1,0 +1,6 @@
+.babelrc
+.npmignore
+.npmrc
+node_modules
+src
+test
